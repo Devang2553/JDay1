@@ -99,15 +99,15 @@ const PopularSearches = () => {
   return (
     <div className="bg-[#FFF5EA] h-screen">
       <div>
-        <h1 className="text-[40px] text-[#5E2829] text-center pt-[100px] font-bold">
+        <h1 className="md:text-[40px] text-3xl text-[#5E2829] text-center pt-[60px] font-bold">
           Popular Searches
         </h1>
-        <UnderLine className="mx-auto my-10" />
+        <UnderLine className='mx-auto my-5 w-80 md:w-[500px] lg:w-[1054px] xl:w-[1154px] ' />
       </div>
-      <div className="max-w-screen-2xl mx-auto">
-        <div className="flex pb-4">
-          <h1 className="font-bold text-[#723837] text-lg">CLOTHING: </h1>
-          <span className="line-clamp-2 font-normal text-lg text-[#723837]">
+      <div className="max-w-screen-2xl mx-auto px-2 ">
+        <div className="flex pb-4 ">
+          <h1 className="font-bold text-[#723837] md:text-lg text-base">CLOTHING: </h1>
+          <span className="line-clamp-2 font-normal md:text-lg text-base text-[#723837]">
             &nbsp; &nbsp; Dresses For Girls | T-Shirts | Sandals | Blazers For
             Men | Handbags | Bags | Sport Shoes | Reebok Shoes | Puma Shoes |
             Boxers | Wallets | Tops | Earrings Fastrack Watches | Kurtis | Nike
@@ -152,7 +152,7 @@ const PopularSearches = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col pt-28 ">
+      {/* <div className="flex flex-col pt-28 ">
         <Slider {...settings}>
           {data.map((x) => (
             <div key={x.id} className="flex pb-10">
@@ -160,7 +160,7 @@ const PopularSearches = () => {
             </div>
           ))}
         </Slider>
-      </div>
+      </div> */}
     </div>
   );
 };

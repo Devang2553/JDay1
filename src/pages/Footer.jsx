@@ -13,19 +13,19 @@ const Footer = () => {
   return (
     <section className="  w-full flex flex-col ">
     <div>
-      <h1 className="text-2xl text-[#5E2829] text-center pt-[100px] font-bold">
+      <h1 className="text-2xl text-[#5E2829] text-center pt-[60px] font-bold">
       Don’t Miss A Beat, Follow Us On Instagram @Skriti.App
       </h1>
       <UnderLine className="mx-auto my-5 mt-10" />
       
     </div>
     <div >
-        <div className='flex justify-evenly pt-36'>
+        <div className='flex flex-wrap  justify-evenly pt-20'>
         <div className='h-auto w-auto pt-10' >
             <img src={Logo} alt='logo' className=' w-[197px] h-[166px] '/>
         </div>
         <div>
-            <ul className='flex flex-col gap-5'>
+            <ul className='flex flex-col gap-5 pt-10 md:pt-0'>
                 <li className='font-bold text-xl text-[#5E2829] '>About us</li>
                 <li >About Skriti</li>
                 <li>About Store</li>
@@ -33,13 +33,13 @@ const Footer = () => {
                 <li>Newsroom</li>
             </ul>
         </div>
-        <div>
-        <ul className='flex flex-col gap-5'>
-                <li className='font-bold text-xl text-[#5E2829]'>Contact us</li>
-                <li className='flex'><Call/>123456789</li>
-                <li className='flex'><Sms/>contact@skriti.co</li>
-                <li className='flex'><Map/>539 W. Commerce St., #3563, Dallas, TX 75208</li>
-                <li className='flex'><WhatsUp/>+91 - 1234567890</li>
+        <div className=''>
+        <ul className='flex flex-col gap-5 pt-10 md:pt-0  '>
+                <li className='font-bold text-xl text-[#5E2829] '>Contact us</li>
+                <li className='flex '><Call/>123456789</li>
+                <li className='flex '><Sms/>contact@skriti.co</li>
+                <li className='flex  mx-auto'><Map/>539 W. Commerce St., #3563, Dallas, TX 75208</li>
+                <li className='flex '><WhatsUp/>+91 - 1234567890</li>
             </ul>
         </div>
         <div>

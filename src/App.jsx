@@ -45,7 +45,7 @@ function App() {
       </div>
       <TrendingProduct />
       <Boutique />
-      <Carousal />
+      {/* <Carousal />   */}
 
       <TopBrands />
       <PopularSearches />

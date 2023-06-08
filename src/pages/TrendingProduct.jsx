@@ -145,10 +145,10 @@ const TrendingProduct = () => {
     return (
       <div className='bg-[#FFF5EA] min-h-screen relative '>
         <div>
-          <h1 className='text-[40px] text-[#5E2829] text-center pt-[100px] font-bold'>
+          <h1 className='md:text-[40px] text-3xl text-[#5E2829] text-center pt-[100px] font-bold'>
             Trending Products
           </h1>
-          <UnderLine className='mx-auto my-5 w-96 md:w-[500px] lg:w-[1054px] xl:w-[1154px] ' />
+          <UnderLine className='mx-auto my-5 w-80 md:w-[500px] lg:w-[1054px] xl:w-[1154px] ' />
 
           <p className='text-center text-base'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
